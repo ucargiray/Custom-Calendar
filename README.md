@@ -40,7 +40,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Ahmet Giray Uçar - ucargiray@gmail.com
+Ahmet Giray Uçar - giray.dev
 
 Project Link: [https://github.com/ucargiray/Custom-Calendar](https://github.com/your_username/repo_name)
 

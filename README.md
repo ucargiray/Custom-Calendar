@@ -1,10 +1,8 @@
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/ucargiray/]
+![LinkedIn][linkedin-shield][https://www.linkedin.com/in/ucargiray/]
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Custom Calendar Screen Shot][product-screenshot]](https://i.imgur.com/C1BRDps.png)
 
 This is a custom calendar view written in SwiftUI. No third party libraries used in order to create this. You can download and change the variable's values in order to achieve the view you want.
 
@@ -12,16 +10,25 @@ This is a custom calendar view written in SwiftUI. No third party libraries used
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+- App gets the users current date and shows the month that user is on. If user opens calendar view at March, view starts with March month and lists all the days of March. 
+- When user clicks on the either left nor right arrow, month and days changes. 
+- (Optional)There is a limitation for user to change months on calendar. Default value is 2 right now but change this limitation with changing the variable called "monthDifferenceLimit". 
+- User's current day is shown on the calendar as a gray circle behind it.
+- When user clicks on numbers on the calendar, view updates itself and puts a purple circle behind it to notify the user.
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Description
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. Inside "Date+Weekday.swift" file, some functionallity added for Date and String struct.
+2. "CustomCalendarViewModel.swift" file has the functions for calculating the day's name.
+3. "CustomCalendarDayView.swift" file is the header view which has the day names right above CalendarView.
+4. "CustomCalenderView.swift" is the file of whole Calender View.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+## Screenshots
+User chooses different day |  User's current day is shown | User reaches bottom limit | User reaches upper limit
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://i.imgur.com/C1BRDps.png)  |  ![](https://i.imgur.com/lEi6828.png) | ![](https://i.imgur.com/ZAuGdPI.png) | ![](https://i.imgur.com/5nIfURm.png) 
 
 
 <!-- LICENSE -->
